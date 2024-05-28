@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parentDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+    margin-top: 3%;
+}
+
+.profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.userInfo h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.userInfo h4 {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+}
+
+.logoutButton {
+    background-color: #ff5757;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.loginButton{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.logoutButton:hover {
+    background-color: #ff1f1f;
+}
+
+/* Responsive Styles */
+@media (min-width: 600px) {
+    .parentDiv {
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 40px;
+    }
+
+    .profile {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+
+    .userInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .userInfo h2 {
+        font-size: 28px;
+    }
+
+    .userInfo h4 {
+        font-size: 18px;
+    }
+
+    .logoutButton {
+        margin-top: 20px;
+        padding: 12px 24px;
+    }
+}

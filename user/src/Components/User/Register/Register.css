@@ -1,0 +1,61 @@
+body{
+    /* background-color: aqua; */
+}
+
+.registerForm{
+    background-color: bisque;
+    width: 370px;
+    height: auto;
+    border: 1px solid;
+    margin-left: 35%;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+.registerForm h2{
+    margin-left: 30%;
+}
+
+.registerForm label{
+    
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+
+.registerForm input{
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    outline: transparent;
+    margin-left: 20%;
+    margin-bottom: 20px;
+    border: transparent;
+}
+
+.registerForm button {
+    text-align: center;
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    border: transparent;
+    margin-left: 33%;
+    cursor: pointer;
+}
+
+.registerForm p{
+    font-size: small;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+.removeButton{
+    color: white;
+    background-color: red;
+}
+
+
+.removeButton:hover{
+    color: red;
+    background-color: white;
+}

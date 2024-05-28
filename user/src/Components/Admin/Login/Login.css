@@ -1,0 +1,55 @@
+body{
+    /* background-color: blue; */
+}
+
+.loginadminForm{
+    background-color: bisque;
+    width: 400px;
+    height: 400px;
+    border: 1px solid;
+    margin-left: 35%;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+.loginadminForm h2{
+    margin-left: 30%;
+}
+
+.loginadminForm label{
+    
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+
+.loginadminForm input{
+    height: 40px;
+    width: 60%;
+    text-align: center;
+    border-radius: 10px;
+    outline: transparent;
+    margin-left: 20%;
+    margin-bottom: 20px;
+    border: transparent;
+}
+
+.loginadminForm button {
+    text-align: center;
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    border: transparent;
+    margin-left: 38%;
+    cursor: pointer;
+}
+
+.loginadminForm p{
+    font-size: small;
+    margin-left: 25%;
+    cursor: pointer;
+}
+
+.loginadminForm span{
+    color: red;
+    margin-left: 37%;
+}
